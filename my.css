@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.head{
+  width: 100%;
+  height: 100vh;
+  padding: 1% 7%;
+  background: linear-gradient(rgba(32, 177, 223, 0.5),rgba(32, 177, 223, 0.5)) ,url(./img/wave-pattern-desert-landscape--oman-886145780-5c45542046e0fb00012ebabf.jpg), no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 40px;
+
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.lest{
+  margin-right: 0;
+}
+.text-area{
+  max-width: 600px;
+  margin-top: 120px;
+}
+.text-area h1{
+  color: #fff;
+  font-size: 80px;
+}
+hr{
+  margin-top: -20px;
+  margin-left: 15px;
+  margin-right: 28px;
+  height: 8px;
+  background-color: #fff;
+}
+.text-area p{
+  margin-top: 30px;
+  color: #9dd5ef;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+button{
+  padding: 10px 50px;
+  outline: none;
+  border: 2px solid  #3dd5ef;
+  background: transparent;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+
+}
+.btn2{
+  margin-left: 20px;
+}
+button:hover{
+  background-color: #4dd5ef;
+  border-color: #4dd5ef ;
+  transition: 2s;
+  border-radius:50px;
+}
+.image img{
+top:55%;
+transform: translateY(-45%);
+right: 150px;
+position: absolute;
+max-width: 400px;
+}
+.moon{
+  display: none;
+}
+.sun{
+  display: none;
+}
+#planet{
+  background-color: #7777;
+}
+.planet{
+  padding: 30px 0;
+  margin: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.box-area{
+  align-items: center;
+  background-color: #9dd5ef;
+  padding: 40px 0 0;
+  border-radius: 10px;
+}
+.box-area img{
+  width: 200px;
+  height: 200px;
+}
+.box-area h3{
+  font-size: 35px;
+  font-weight: 300;
+  margin: 10px 0;
+  color:rgb(46, 158, 184) ;
+}
+.box-area p{
+  font-weight: 300;
+  color:rgb(54, 85, 92) ;
+  font-size:18px;
+}
+#solar{
+  background-color: rgb(168, 173, 187);
+  padding: 10px 0;
+  height: 80vh;
+  position: relative;
+}
+.solar-system{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+.left-col{
+  flex-basis: 50%;
+}
+.left-col .image{
+  display: none;
+  width: 500px;
+}
+.right-col{
+  flex-basis: 50%;
+  align-items: flex-start;
+}
+.right-col h2{
+  font-size: 35px;
+  font-weight: 400;
+  color: #936c79;
+}
+.right-col p{
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+  color:#3c6e97;
+}
+.span1{
+  display:inline-block;
+  width: 12px;
+  height: 12px ;
+  background-color: #4772b3;
+  margin-bottom: -20px;
+  margin-top: -10px;
+  
+}
+.span2{
+  display:inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #3c6e97; 
+  margin-bottom: -10px;
+}
+.span3{
+  display:inline-block;
+  width: 80px;
+  height: 1px;
+  background-color: #3c6e97;
+
+}
